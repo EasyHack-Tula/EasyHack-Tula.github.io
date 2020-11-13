@@ -74,7 +74,7 @@ let response = await fetch(url);
 let json = await response.json();
 await console.log(json);
 function addElement() {
-json.forEach(item => {
+(json.people).forEach(item => {
 let card = document.createElement('div');
 card.classList.add('card');
 card.innerHTML = `
